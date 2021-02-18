@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    width:100%;
+    min-height: 100vh;
+    background-color: #eeeeee;
+    text-align: center;
+}
+main{
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.changesizebutton{
+    margin: 30px;
+}
+.mainbox{
+    width:500px;
+    height: 500px;
+    border: 1px solid black;
+    display: grid;
+
+}
+.boxes{
+    border: 1px solid black;
+}
+@media (max-width:450px){
+
+    body{
+        padding: 20px;
+    }
+
+    .mainbox{
+        width:400px;
+        height: 400px;
+        
+    
+    }
+}
